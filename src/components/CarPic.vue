@@ -1,12 +1,16 @@
 <template>
   <div class="picture-area">
-    <img class="picture" src="../assets/autko1.png" alt="auto" />
+    <img class="picture" v-bind:src="picSrc" v-bind:alt="picAlt" />
   </div>
 </template>
 
 <script>
     export default {
-        name: 'CarPic'
+        name: 'CarPic',
+        props: {
+            picSrc: String,
+            picAlt: String
+        }
     }
 </script>
 
