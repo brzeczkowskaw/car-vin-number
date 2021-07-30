@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div>
+    <div class="ilustration">
       <Ilustration />
     </div>
     <div>
@@ -41,6 +41,11 @@ html,body{
   margin: 0;
   padding: 0;
 }
+
+.ilustration {
+  justify-content: center;
+}
+
 .frames {
   display: flex;
   flex-direction: row;

@@ -24,8 +24,17 @@ export default {
 
 .text {
   font-family: 'Aleo', serif;
-  font-size: 50px;
-  line-height: 55px;
+  font-size: 3em;
   text-align: center;
+}
+
+@media (max-width: 1100px) {
+  .text {
+    font-size: 2em;
+  }
+
+  .title {
+    width: 40vw;
+  }
 }
 </style>

@@ -28,4 +28,15 @@ export default {
   line-height: 40px;
   text-align: center;
 }
+
+@media (max-width: 1100px) {
+  .name {
+    width: 45vw
+  }
+
+  .text {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
 </style>

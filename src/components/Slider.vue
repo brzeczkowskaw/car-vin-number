@@ -39,9 +39,9 @@ export default {
       const car = JSON.stringify(results);
       const cars = JSON.parse(car);
 
-      const random1 = Math.floor(Math.random() * 100 + 1);
-      const random2 = Math.floor(Math.random() * 100 + 2);
-      const random3 = Math.floor(Math.random() * 100 + 3);
+      const random1 = Math.floor(Math.random() * 10 + 1);
+      const random2 = Math.floor(Math.random() * 10 + 2);
+      const random3 = Math.floor(Math.random() * 10 + 3);
 
       this.picSrc1 = cars.photos[random1].src.original;
       this.picAlt1 = cars.photos[random1].photographer;
@@ -63,5 +63,12 @@ export default {
   flex-direction: row;
   justify-content: space-evenly;
   margin-bottom: 5vh;
+}
+
+@media (max-width: 1100px) {
+  .slider {
+    display: flex;
+    flex-direction: column
+  }
 }
 </style>

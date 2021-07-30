@@ -27,5 +27,17 @@ export default {
   font-size: 36px;
   line-height: 40px;
   text-align: center;
+  color: #A02626
+}
+
+@media (max-width: 1100px) {
+  .result {
+    width: 45vw
+  }
+
+  .text {
+    font-size: 26px;
+    line-height: 30px;
+  }
 }
 </style>

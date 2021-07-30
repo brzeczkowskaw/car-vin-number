@@ -156,4 +156,25 @@ export default {
   justify-items: center;
   padding-top: 2vh;
 }
+
+@media (max-width: 1100px) {
+  .frames {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .frame {
+    margin-bottom: 5vh;
+    width: 60vw;
+  }
+
+  .btn {
+    width: 40vw;
+  }
+
+  .input {
+    width: 40vw;
+  }
+}
 </style>
