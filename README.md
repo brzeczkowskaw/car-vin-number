@@ -17,7 +17,7 @@ You can see demo of app [here](https://brzeczkowskaw.github.io/car-vin-number/#/
 ## Features
 Application is a website to check details of car registred in the Netherlands by using it's plate number. It uses Overheid.io API. Providing the plate of the car user can check it's name, date of first admission and fuel type. 
 On the bottom there are free pictures which are randomly showing pictures of different cars using Pixels API. 
-This simple one-page application is fully responsive. 
+This simple one-pager application is fully responsive. 
 
 ## Technologies & Tools
 Application was created using: 
@@ -28,6 +28,7 @@ Application was created using:
 - Overheid.io API,
 - Pixels API,
 - Figma,
+- Postman,
 - Affinity Designer
 
 ## Project setup
