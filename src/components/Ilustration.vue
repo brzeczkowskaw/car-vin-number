@@ -12,7 +12,7 @@ export default {
 <style scoped>
     .ilustration {
         height: 80vh;
-        top: -10vh;
+        margin-top: -15vh;
         position: relative;
         background-image: url(../assets/autko1.png);
         background-size: cover;
