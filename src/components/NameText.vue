@@ -35,7 +35,7 @@ export default {
   }
 
   .text {
-    font-size: 20px;
+    font-size: 2em;
     line-height: 25px;
   }
 }

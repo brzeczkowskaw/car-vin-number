@@ -20,7 +20,7 @@ export default {
 
 @media (min-width: 721px) and (max-width: 1100px) {
   .ilustration {
-    height: 50vh;
+    height: 40vh;
     margin-top: -5vh;
   }
 }
